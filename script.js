@@ -388,7 +388,7 @@ nav_scart.addEventListener('click', e => {
 payBtn.addEventListener('click', e => {
     if (actualData.shooping_cart.length < 1) {
         swal({
-            title: "Falided Operation",
+            title: "Failed Operation",
             text: "The shooping_cart is empty.",
             icon: "warning"
         })
